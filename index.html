@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Frontend Mentor | Shortly URL shortening API </title>
+  </head>
+  <body>
+   <!-- navbar  -->
+    
+    <nav class="navbar">
+      <div class="container">
+        <div class="links-logo">
+        <img src="./images/logo.svg" alt="" />
+        <img id="img-ham" src="./images/bars-solid.svg" alt="bars" onclick="funclick()" style="width: 24px;"/>
+        <ul  id="nav-link-id" >
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+        </div>
+        <div> 
+             <a href="#" id="login" class="login-cta">login</a>
+               <a href="#" id="sign-up" class="login-cta">Sign up</a>
+        </div>
+        
+      </div>
+    </nav>
+
+    <!-- more than section  -->
+
+    <section class="sectionone">
+      <div class="contianer">
+        <div class="right-col">
+            <img src="./images/illustration-working.svg" alt="image-alt" id="image-illustration">
+          </div>
+          <div class="left-col">
+            <h1>More Than just shorter links</h1>
+            <p>
+              Build your brand's recognition and get detailed insights on how your
+              links are performing.
+            </p>
+            <a href="#" class="get-cta">Get Started</a>
+          </div>
+      </div>
+    </section>
+
+    <!-- horizontal-card  -->
+
+    <form class="horizontal-card">
+        <input type="text" placeholder="Shorten a link here" id="inputValue"/>
+        <button type="submit">Shorten it!</button>
+    </form>
+
+      <!-- copy btn  -->
+           <section class="short-link">
+                    <input type="text" class="generated-link" disabled value="shrtco.de/____">
+                    <div class="copy-link">
+                        <button class="copy-button">
+                            Copy
+                        </button>
+            </section>
+
+    <!-- Advanced Statistics  -->
+
+    <section class="sectiontwo">
+      <div class="container">
+        <h1 class="advanced" id="h1advanced">Advanced Statistics</h1>
+        <p class="advanced" id="para">
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+        <div class="cadrs-conatiner">
+          <div class="card" id="card-one">
+            <img src="./images/icon-brand-recognition.svg" alt="" />
+            <h3>Brand Recognition</h3>
+            <p>
+              Boost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="card" id="card-two">
+            <img src="./images/icon-detailed-records.svg" alt="" />
+            <h3>Detailed Records</h3>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="card" id="card-three">
+            <img src="./images/icon-fully-customizable.svg" alt="" />
+            <h3>Fully Customizable</h3>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+        <div class="boost">
+          <h2>Boost your links today</h2>
+          <a href="#" class="get-cta">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+  <!-- footer   -->
+
+  <footer class="footer-section">
+    <img  id="logo" src="./images/logo.svg" alt=""/>
+    <ul class="feat-link">
+      <h4>Features</h4>
+      <li><a href="#">Link Shortening</a></li>
+      <li><a href="#">Branded Links</a></li>
+      <li><a href="#">Analytics</a></li>
+    </ul>
+    <ul class="Resources-link">
+      <h4>Resources</h4>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Developers</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+    <ul class="company-link">
+      <h4>Company</h4>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Our Team</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="social-media-links">
+      <img src="./images/icon-instagram.svg" alt="">
+      <img src="./images/icon-facebook.svg" alt="">
+      <img src="./images/icon-pinterest.svg" alt="">
+      <img src="./images/icon-twitter.svg" alt="">
+    </div>
+  </footer>
+
+
+  </body>
+  <script src="./javascript/app.js"></script>
+</html>
+
+
